@@ -24,7 +24,7 @@
 
 			New_transData.transState = recieveTransactionData(&New_transData);
 
-			if (New_transData.transState = APPROVED)
+			if (New_transData.transState == APPROVED)
 			{
 				printf("======================================================\n");
 				printf("=     Your Transcation has been done Successfully    = \n");
